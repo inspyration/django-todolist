@@ -1,0 +1,1 @@
+App locale repository
