@@ -1,0 +1,52 @@
+#
+# Python main packages
+#
+bpython
+
+#
+# project related packages
+#
+django
+django-polymorphic
+# djangorestframework
+# django-rest-swagger
+
+#
+# Dev related packages
+#
+django-debug-toolbar
+django-debug-toolbar-template-profiler
+django-debug-toolbar-template-timings
+django-queryinspect
+pympler
+
+#
+# Testing related packages
+#
+nose
+coverage
+factory-boy
+faker
+mock-django
+django-rainbowtests
+django-nose
+selenium
+
+#
+# production related packages
+#
+gunicorn
+
+#
+# Quality
+#
+prospector[with_everything]==1.1.6.2
+# prospector pylint & astroid freezed version
+astroid==2.0.4
+pylint==2.1.1
+pydocstyle
+# flake8
+tox
+autopep8
+pycodestyle
+pyflakes

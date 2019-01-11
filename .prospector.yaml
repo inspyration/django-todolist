@@ -1,0 +1,78 @@
+doc-warnings: true
+test-warnings: false
+member-warnings: true
+
+uses:
+    - django
+    - celery
+
+ignore-patterns:
+  - (^|/)\..+
+  - ^script
+
+pylint:
+  disable:
+    - fixme
+    - todo
+
+  bad-functions:
+
+  good-names:
+    - i
+    - j
+    - k
+    - v
+    - ex
+    - Run
+    - _
+    - pk
+    - x
+    - y
+    - f
+    - n
+    - m
+    - M
+    - fr
+    - fw
+    - fd
+    - qs
+
+  notes:
+
+  options:
+    max-locals: 15
+    max-returns: 6
+    max-branches: 12
+    max-statements: 50
+    max-parents: 12
+    max-attributes: 7
+    min-public-methods: 0
+    max-public-methods: 20
+    max-module-lines: 1000
+    max-line-length: 120
+
+mccabe:
+  options:
+    max-complexity: 10
+
+pep8:
+  full: true
+  disable:
+  options:
+    max-line-length: 120
+    single-line-if-stmt: n
+    exclude: migrations
+
+pyroma:
+  run: true
+  disable:
+
+pep257:
+  run: true
+  disable:
+    - D203
+    - D212
+
+vulture:
+  run: false
+
