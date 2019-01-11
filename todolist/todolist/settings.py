@@ -56,6 +56,7 @@ INTERNAL_IPS = ['127.0.0.1']
 
 INSTALLED_APPS = [
     # Custom
+    "action.apps.ActionConfig",
     "project.apps.ProjectConfig",
     "category.apps.CategoryConfig",
     # Third libraries
