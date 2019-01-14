@@ -49,4 +49,4 @@ pydocstyle
 tox
 autopep8
 pycodestyle
-pyflakes
+pyflakes==1.6.0
